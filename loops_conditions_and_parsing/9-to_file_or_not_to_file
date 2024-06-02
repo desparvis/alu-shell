@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # files
-file=school
+file="school"
 if [ -e "$file" ]; then
 echo "school file exists"
 if [ -s "$file" ]; then
