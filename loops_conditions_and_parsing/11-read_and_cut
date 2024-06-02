@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 # file contents
-f="/etc/passwd"
-while IFS=: read -r username  _ user_id _ _ homedir _
-do
+file="/etc/passwd"
+while IFS=: read -r username  _ user_id _ _ homedir _; do
 echo "{username}:${user_id}:${homedir}
-done < "$f"
+done < "$file"
