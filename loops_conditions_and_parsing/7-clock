@@ -10,5 +10,5 @@ do
 echo "$minutes"
 ((minutes++))
 done
-((hour++))
+((hours++))
 done
