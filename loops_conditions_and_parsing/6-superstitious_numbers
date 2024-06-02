@@ -16,6 +16,8 @@ echo "bad luck from Japan"
 echo "17"
 echo "bad luck from Italy"
 ;;
+*)
+	echo "$c"
 esac
 ((c++))
 done
