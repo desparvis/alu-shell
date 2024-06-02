@@ -2,5 +2,5 @@
 # file contents
 file="/etc/passwd"
 while IFS=: read -r username  _ user_id _ _ homedir _; do
-echo "{username}:${user_id}:${homedir}
+echo "{username}:${user_id}:${homedir}"
 done < "$file"
