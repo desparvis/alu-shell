@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # filename
+# shellcheck disable=SC2193
 for file in *
 do
 if [[ ! "#file" == .* ]]; then
