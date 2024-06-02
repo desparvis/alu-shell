@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#until loop
+# until loop
 counter=1
 until [ $counter -gt 10 ]
 do 
