@@ -13,4 +13,4 @@ else
 	echo "$c"
 fi
 ((c++))
-do
+done
