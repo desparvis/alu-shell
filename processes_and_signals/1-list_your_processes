@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
 # display processes
 echo "current processes:"
-ps aux --forest
+ps -ef
+echo -e
+pstree -a
