@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# kill infinite and beyond
+kill "$(px -x | pgrep -f beyond
