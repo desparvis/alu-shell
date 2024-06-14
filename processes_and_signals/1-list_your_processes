@@ -1,6 +1,3 @@
 #!/usr/bin/env bash
 # display processes
-echo "current processes:"
-ps -ef
-echo -e
-pstree -a
+ps -a -u -x -f
