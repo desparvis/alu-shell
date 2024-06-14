@@ -1,4 +1,4 @@
-
+#!/usr/bin/env bash
 # manage my processes you will know more
 if [ "${1}" == "start" ]
 
