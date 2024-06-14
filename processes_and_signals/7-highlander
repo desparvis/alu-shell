@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# 7highlander
 trap 'echo "I am invincible!!!"' SIGTERM; 
 while true
     do 
